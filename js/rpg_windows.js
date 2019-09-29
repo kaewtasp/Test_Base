@@ -2788,6 +2788,9 @@ Window_Options.prototype.setConfigValue = function(symbol, volume) {
 
 function Window_SavefileList() {
     this.initialize.apply(this, arguments);
+	var a= 10;
+	var b = 12;
+	console.log(a+b);
 }
 
 Window_SavefileList.prototype = Object.create(Window_Selectable.prototype);
